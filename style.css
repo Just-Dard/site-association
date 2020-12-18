@@ -7,3 +7,13 @@ body {
 .bg-light {
     background-color: #bdc3c7!important;
 }
+
+.card {
+    margin: 10px;
+    
+}
+
+div {
+    margin: 20px 0 20px 0;
+}
+
