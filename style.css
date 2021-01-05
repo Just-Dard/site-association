@@ -1,19 +1,116 @@
 body {
     margin: 0;
     font-size: 1rem;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: 'Lato', sans-serif;
 }
 
-.bg-light {
-    background-color: #bdc3c7!important;
-}
-
-.card {
-    margin: 10px;
-    
+a {
+    font-family: 'Audiowide', cursive;
 }
 
 div {
     margin: 20px 0 20px 0;
 }
 
+/* Header */
+
+nav {
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom-left-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.125);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-family: 'Audiowide', cursive;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bg-light {
+    background-color:#636e72!important;
+}
+
+/* Titles */
+
+h1 {
+    margin: 30px 10px 30px 10px;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Audiowide', cursive;
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Audiowide', cursive;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Audiowide', cursive;
+}
+
+strong {
+    color: red;
+}
+
+/* Card */
+
+.card {
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.125);
+    border-radius: 0.75rem;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+
+/* Main */
+
+.row {
+    margin-top: 20px;
+}
+
+.president-text.col-lg {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .75rem;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.125);
+    padding: 28px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#img-sports-natures, #img-paleta-tour {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Footer */
+
+footer {
+    color: white;
+    font-size: 1rem;
+    background-color: #636e72;
+    margin-top: 50px;
+    padding: 10px;
+    border-top-right-radius: 0.75rem;
+    border-top-left-radius: 0.75rem;
+}
+
+/* Formulaire */
+
+.form-group {
+    font-weight: bold;
+    
+}
